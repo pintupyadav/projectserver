@@ -23,6 +23,11 @@ app.get("/b",function (req,res) {
     res.send("URL B");
 
 });
+app.post("/b",function (req,res) {
+    res.send("URl B For Post");
+
+});
+
 app.get("/c",function (req,res) {
     res.send("URL C")
 
